@@ -13,6 +13,9 @@
       <a class="navbar-brand" href="index.php">Inicio</a>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
+          <a class="nav-link" href="servicios.php">Servicios</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#">Nuestro equipo</a>
         </li>
         <li class="nav-item">

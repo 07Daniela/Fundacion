@@ -21,8 +21,11 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['id'])) {
 <body>
   <header>
     <nav class="navbar navbar-expand navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Inicio</a>
+      <a class="navbar-brand" href="index.php">Inicio</a>
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.php">Servicios</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="pagina.php">Nuestro equipo</a>
         </li>
